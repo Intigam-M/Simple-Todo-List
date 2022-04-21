@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.input-section {
+    width: 70%;
+    height: auto;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    border: 1px solid #000;
+}
+
+.input-section-header {
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.input-section-header h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.input-section-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input-section-form input,
+.input-section-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.todo-section {
+    width: 70%;
+    height: auto;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 2%;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.todo-item {
+    margin-bottom: 2%;
+}
+
+.title-div {
+    padding: 10px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.todo-body {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    transition: 500ms;
+    max-height: 100px;
+}
+
+.todo-body .content {
+    padding: 10px;
+}
+
+.todo-body-close {
+    max-height: 0;
+    overflow: hidden;
+}
