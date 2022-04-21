@@ -67,6 +67,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid #000;
+    cursor: pointer;
 }
 
 .todo-body {
@@ -85,4 +86,12 @@
 .todo-body-close {
     max-height: 0;
     overflow: hidden;
+}
+.delete-item{
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
 }
